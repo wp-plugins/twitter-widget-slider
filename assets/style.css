@@ -1,0 +1,66 @@
+#twitter_slider {
+
+	position: relative;
+
+}
+
+
+
+#tsbox1 {
+
+	-webkit-border-radius: 5px;
+
+	-moz-border-radius: 5px;
+
+	border-radius: 5px;
+
+	border:5px solid #34c2d0;
+
+	background-color: #fff;
+
+	position: fixed;
+
+}
+
+
+
+#tsbox2 {
+
+	overflow: hidden;
+
+	text-align: left;
+
+}
+
+
+
+#tsbox1 img {
+
+	position: absolute; 
+
+	top: 0px; 
+
+	cursor: pointer;
+
+	border: 0;
+
+	z-index: 10000;
+
+}
+
+
+
+#tsbox1 iframe {
+
+	border:0px;
+
+	overflow: hidden; 
+
+	position: absolute;
+
+	width:100%;
+
+	height: 100%;
+
+}
+
